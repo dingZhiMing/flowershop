@@ -1,0 +1,308 @@
+ #content{
+	width: 100%;
+	height: 100%;
+	background-color:#f3f3f6;
+	@include flexbox(flex);
+	@include flex-direction(column);
+	section{
+		@include flex(1);
+		position: relative;
+		width: 100%;
+		.section{
+			position:absolute;
+			top: 0;
+			bottom:0;
+			left: 0;
+			right: 0;
+			@include flexbox(flex);
+			@include flex-direction(column);
+			header{
+				width: 100%;
+				height: 0.4rem;
+				background-color:#ff6600;
+				>ul{
+					width: 100%;
+					height: 0.4rem;
+					@include flexbox(flex);
+					@include flex-direction(row);
+					.logo{
+						width: 1rem;
+						height: 0.4rem;
+						background:url(http://dzm.com/flowers-shop/images/nav_logo.png) no-repeat 0.14rem 0.1rem;
+						background-size:0.86rem 0.2rem;
+					}
+					.search-box{
+						@include flexbox(flex);
+						@include flex(1);
+						@include align-items(center);
+   						@include justify-content(center);	
+   						.search-container{
+   							width: 1.93rem;
+   							height: 0.23rem;
+   							background-color:#ff944d;
+   							border-radius: 0.03rem;
+   							@include flexbox(flex);
+   							@include flex-direction(row);
+   							>div{
+   								width: 0.23rem;
+   								height: 0.23rem;
+   								text-align: center;
+   								line-height: 0.23rem;
+   								font-size: 0.13rem;
+   								color: #ffffff;
+
+   							}
+   							.search-box{
+   								@include flex(1);
+   								background-color:#ff944d;
+   								border:none;
+   								outline: none;
+   								color: #ffe2cf;
+   								font-size: 0.11rem;
+   							}
+   						}
+					}
+				}
+			}
+			#main{
+				@include flex(1);
+				width: 100%;
+				overflow: hidden;
+				
+				.mainWarp{
+					height:100%;
+				.nav{
+					//width: 100%;
+					.nav-list{
+						//width:100%;
+						>img{
+							width:100%;
+						}
+					}
+				}
+				.main-container{
+					width: 100%;
+					height: 0.9rem;
+					.main-ul{
+						width: 100%;
+						height: 0.9rem;
+						@include flexbox(flex);
+						@include flex-direction(row);
+						//@include align-items(center);
+   						//@include justify-content(center);
+   						background-color:#fff;
+						>li{
+							@include flex(1);
+							@include flexbox(flex);
+							@include flex-direction(column);
+							@include align-items(center);
+								>div{
+									margin-top: 0.14rem;
+									height: 0.45rem;
+									width: 0.45rem;
+									text-align: center;
+									font-size: 0.25rem;
+									color: #fffefe;
+									line-height: 0.45rem;
+									border-radius:50%;
+									
+								}
+								>p{
+									font-size: 0.12rem;
+									color: #585858;
+									width: 100%;
+									text-align: center;
+								}
+								.flowers{
+									background-color: #fb8989;
+								}
+								.pack{
+									background-color:#de8dc5;
+								}
+								.flower{
+									background-color:#77bae6;
+								}
+								.gift{
+									background-color:#f6b365;
+								}
+								.more{
+									background-color:#88d4c0;
+								}
+
+							
+						}	
+					}
+				}
+				.m-list{
+					width: 100%;
+					padding-top: 0.14rem;
+					.m-list-ul{
+						width: 100%;
+						@include flexbox(flex);
+						.margin1{margin:0px 1px}
+						.m-list-li{
+							@include flex(1);
+							@include flexbox(flex);
+							@include flex-direction(column);
+							background-color:#fff;
+							.pub-name{
+								width: 100%;
+								font-size: 0.12rem;
+								text-align: center;
+								margin-top: 0.1rem;
+							}
+							.publicColor{
+								width: 100%;
+								font-size: 0.08rem;
+								text-align: center;
+								margin-top: 0.04rem;
+								color: #cecece;
+							}
+							.publicImgDemo{
+								width: 100%;
+								margin-top: 0.11rem;
+							}
+							.color1{color:#e3b8de;}
+							.color2{color:#f1af4a;}
+							.color3{color:#ff8e90 ;}
+						}
+					}
+				}
+				.main-title{
+					margin-top: 0.16rem;
+					padding-left:0.08rem;
+					padding-right:0.08rem;
+					@include flexbox(flex);
+					span{
+						display: inline-block;
+						@include flex(1);
+					}
+					.main-tit-left{
+						font-size: 0.16rem;
+						color: #555555;
+						text-align: left;
+						font-weight: 700;
+					}
+					.main-tit-right{
+						font-size: 0.14rem;
+						color: #adadad;
+						text-align: right;
+					}
+				}
+				.main-goods{
+					margin-top: 0.11rem;
+					margin-left:0.08rem;
+					margin-right:0.08rem;
+					@include flexbox(flex);
+					background-color:#fff;
+					.kong{width:0.08rem;background-color:#f3f3f6;}
+					.goods-details{
+						@include flex(1);
+						img{
+							width: 100%;
+						}
+						p{text-align:center;}
+						.goodsName{
+							font-size: 0.13rem;
+							color: #afafaf;
+						}
+						.goodsPrice{
+							font-size: 0.11rem;
+							color: #ff0000;
+						}
+					}
+				}
+			}
+			}
+		}
+	}
+	footer{
+		width: 100%;
+		height: 0.39rem;
+		background-color: #fff;
+		@include flexbox(flex);
+		@include flex-direction(row);
+		@include box-sizing(border-box);
+		@include border(1px 0 0 0, #d9d9d9);
+		>div{
+			@include flex(1);
+			@include flexbox(flex);
+			@include flex-direction(column)
+			
+			.inconfonts{
+				@include flex(1);
+				display: block;
+				width: 100%;
+				text-align: center;
+				line-height: 0.24rem;
+				font-size: 0.17rem;
+				color: #878787;
+
+			}
+			.footer-wd{
+				width: 100%;
+				height: 0.15rem;
+				font-size: 0.1rem;
+				text-align: center;
+				line-height: 0.15rem;
+				color: #878787;
+			}
+			.visited{
+			color: #ff6427;
+			}
+		}
+		
+
+	}
+}
+ 
+/* #content{
+	width:100%;
+	height:100%;
+	@include flexbox(flex);
+	@include flex-direction(column);
+	section{
+		@include flex(1);
+		width: 100%;
+		background-color:gold;
+		#wrap{
+			width: 100%;
+			height: 100%;
+			@include flexbox(flex);
+			@include flex-direction(column);
+			header{
+			width: 100%;
+			height: 0.44rem;
+			background-color:red;
+			}
+			#main{
+				@include flex(1);
+				width: 100%;
+				background-color:blue;
+			}
+		}
+		
+	}
+	footer{
+		width: 100%;
+		height: 0.44rem;
+		background-color:#acacac
+	}
+
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

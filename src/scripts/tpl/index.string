@@ -1,0 +1,27 @@
+<div id="content">
+	<section>
+	
+	</section>
+	<footer>
+		<div action-type="tap.switch" data-tag="home">
+			<i class="yo-ico inconfonts visited">&#xe60a;</i>
+			<b class="footer-wd visited">首页</b>
+		</div>
+		<div action-type="tap.switch" data-tag="sort">
+			<i class="yo-ico inconfonts">&#xe64b;</i>
+			<b class="footer-wd">分类</b>
+		</div>
+		<div action-type="tap.switch" data-tag="find">
+			<i class="yo-ico inconfonts">&#xe63b;</i>
+			<b class="footer-wd">花现</b>
+		</div>
+		<div action-type="tap.switch" data-tag="shoping">
+			<i class="yo-ico inconfonts">&#xe610;</i>
+			<b class="footer-wd">购物车</b>
+		</div>
+		<div action-type="tap.switch" data-tag="my">
+			<i class="yo-ico inconfonts">&#xe66e;</i>
+			<b class="footer-wd">我的</b>
+		</div>
+	</footer>
+</div>

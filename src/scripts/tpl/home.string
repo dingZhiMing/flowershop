@@ -1,0 +1,121 @@
+<div class="section">
+	<header>
+		<ul>
+			<li class="logo">
+			</li>
+			<li class="search-box">
+				<div class="search-container">
+					<div class="search-bar yo-ico">&#xe660;</div>
+					<input class="search-box" type="text"  value="请输入关键字">
+					<div class="mic yo-ico">&#xe64f;</div>
+				</div>
+			</li>
+		</ul>
+	</header>
+	<div id="main" spa-widget="scroll" >
+		<div class="mainWarp">
+			<nav class="nav">
+				<div class="nav-list"><img src="http://dzm.com/flowers-shop/images/nav.png"></div>
+			</nav>
+			<div class="main-container">
+				<ul class="main-ul">
+					<li>
+						<div class="yo-ico flowers">&#xe667;</div>
+						<p>鲜花</p>	
+					</li>
+					<li>
+						<div class="yo-ico pack">&#xe609;</div>
+						<p>蛋糕</p>	
+					</li>
+					<li>
+						<div class="yo-ico flower">&#xe638;</div>
+						<p>永生花</p>	
+					</li>
+					<li>
+						<div class="yo-ico gift">&#xe62f;</div>
+						<p>特色礼品</p>	
+					</li>
+					<li>
+						<div class="yo-ico more">&#xf0013;</div>
+						<p>更多</p>	
+					</li>
+				</ul>
+			</div>
+			<div class="m-list">
+				<ul class="m-list-ul">
+					<li class="m-list-li">
+						<p class="pub-name color1">新品速递</p>
+						<p class="publicColor">新款驾到</p>
+						<img class="publicImgDemo" src="/flowers-shop/images/Screenshot-43.png">
+					</li>
+					<li class="m-list-li margin1">
+						<p class="pub-name color2">爱情鲜花</p>
+						<p class="publicColor">拿下女神如此简单</p>
+						<img class="publicImgDemo" src="/flowers-shop/images/Screenshot3.png">
+					</li>
+					<li class="m-list-li">
+						<p class="pub-name color3">蛋糕食代</p>
+						<p class="publicColor">爱与美味共享</p>
+						<img class="publicImgDemo" src="/flowers-shop/images/Screenshot.png">
+					</li>
+				</ul>
+			</div>
+			<div class="main-title">
+				<span class="main-tit-left">热卖鲜花</span>
+				<span class="main-tit-right">更多</span>
+			</div>
+			<ul class="main-goods">
+				<li class="goods-details">
+					<img src="/flowers-shop/images/flowers1.png">
+					<p class="goodsName">致美丽的你</p>
+					<p class="goodsPrice">￥125</p>
+				</li>
+				<li class="kong"></li>
+				<li class="goods-details">
+					<img src="/flowers-shop/images/flowers1.png">
+					<p class="goodsName">致美丽的你</p>
+					<p class="goodsPrice">￥125</p>
+				</li>
+			</ul>
+			<ul class="main-goods">
+				<li class="goods-details">
+					<img src="/flowers-shop/images/flowers1.png">
+					<p class="goodsName">致美丽的你</p>
+					<p class="goodsPrice">￥125</p>
+				</li>
+				<li class="kong"></li>
+				<li class="goods-details">
+					<img src="/flowers-shop/images/flowers1.png">
+					<p class="goodsName">致美丽的你</p>
+					<p class="goodsPrice">￥125</p>
+				</li>
+			</ul>
+			<ul class="main-goods">
+				<li class="goods-details">
+					<img src="/flowers-shop/images/flowers1.png">
+					<p class="goodsName">致美丽的你</p>
+					<p class="goodsPrice">￥125</p>
+				</li>
+				<li class="kong"></li>
+				<li class="goods-details">
+					<img src="/flowers-shop/images/flowers1.png">
+					<p class="goodsName">致美丽的你</p>
+					<p class="goodsPrice">￥125</p>
+				</li>
+			</ul>
+			<ul class="main-goods">
+				<li class="goods-details">
+					<img src="/flowers-shop/images/flowers1.png">
+					<p class="goodsName">致美丽的你</p>
+					<p class="goodsPrice">￥125</p>
+				</li>
+				<li class="kong"></li>
+				<li class="goods-details">
+					<img src="/flowers-shop/images/flowers1.png">
+					<p class="goodsName">致美丽的你</p>
+					<p class="goodsPrice">￥125</p>
+				</li>
+			</ul>
+		</div> 
+	</div>
+</div>
